@@ -65,7 +65,7 @@ export default function GamePage({ chapter, onComplete, isChapterUnlocked }: Gam
         aria-hidden="true"
         className="absolute left-0 bottom-0 z-[1] pointer-events-none select-none
                    hidden sm:block
-                   h-48 md:h-72 lg:h-[380px]
+                   h-44 sm:h-64 md:h-96 lg:h-[480px]
                    object-contain object-bottom"
         style={{ filter: 'drop-shadow(0 0 20px rgba(200,80,0,0.4)) brightness(0.75)' }}
       />
@@ -75,7 +75,7 @@ export default function GamePage({ chapter, onComplete, isChapterUnlocked }: Gam
         aria-hidden="true"
         className="absolute right-0 bottom-0 z-[1] pointer-events-none select-none
                    hidden sm:block
-                   h-48 md:h-72 lg:h-[380px]
+                   h-44 sm:h-64 md:h-96 lg:h-[480px]
                    object-contain object-bottom"
         style={{ filter: 'drop-shadow(0 0 20px rgba(200,80,0,0.4)) brightness(0.75)' }}
       />

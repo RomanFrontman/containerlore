@@ -37,8 +37,7 @@ export default function MenuPage({ progress, isUnlocked, onReset }: MenuPageProp
         alt=""
         aria-hidden="true"
         className="absolute left-0 bottom-0 z-[5] pointer-events-none select-none
-                   hidden sm:block
-                   h-48 md:h-72 lg:h-[420px]
+                   h-44 sm:h-64 md:h-96 lg:h-[540px]
                    object-contain object-bottom"
         style={{ filter: 'drop-shadow(0 0 24px rgba(200,80,0,0.45)) brightness(0.82)' }}
       />
@@ -49,8 +48,7 @@ export default function MenuPage({ progress, isUnlocked, onReset }: MenuPageProp
         alt=""
         aria-hidden="true"
         className="absolute right-0 bottom-0 z-[5] pointer-events-none select-none
-                   hidden sm:block
-                   h-48 md:h-72 lg:h-[420px]
+                   h-44 sm:h-64 md:h-96 lg:h-[540px]
                    object-contain object-bottom"
         style={{ filter: 'drop-shadow(0 0 24px rgba(200,80,0,0.45)) brightness(0.82)' }}
       />
